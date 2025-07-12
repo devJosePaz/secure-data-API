@@ -1,14 +1,14 @@
 from pydantic import BaseModel
 
-class TransationCreate(BaseModel):
+class TransactionCreate(BaseModel):
     user_document : str
     credit_card : str
     value : int
 
-class TransationResponse(BaseModel):
+class TransactionResponse(BaseModel):
     user_document : str
     credit_card : str
-    valie : str
+    value : str
 
     class Config:
         from_attributes = True

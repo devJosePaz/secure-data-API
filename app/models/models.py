@@ -1,7 +1,7 @@
 from sqlalchemy import Column, String, BigInteger
 from database.database import Base
 
-class Transation:
+class Transaction:
     __tablename__ = "transations"
 
     id = Column(BigInteger, primary_key=True, index=True)
