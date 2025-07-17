@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de configuração locais
+.env
+*.env
+
+# Arquivos de banco de dados locais (se SQLite)
+*.sqlite3
+*.db
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Chaves criptográficas
+*.pem
+*.key
+*.crt
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pasta dist ou build (caso gere executáveis)
+dist/
+build/
