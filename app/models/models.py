@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, BigInteger
 from database.database import Base
 
 class Transaction:
-    __tablename__ = "transations"
+    __tablename__ = "transactions"
 
     id = Column(BigInteger, primary_key=True, index=True)
     user_document = Column(String, nullable=False)
