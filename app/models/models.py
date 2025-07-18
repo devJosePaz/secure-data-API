@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, BigInteger
 from database.database import Base
 from db.encrypted_type import EncryptedString
 
-class Transaction:
+class Transaction(Base):
     __tablename__ = "transactions"
 
     id = Column(BigInteger, primary_key=True, index=True, autoincrement=True)
