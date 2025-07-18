@@ -4,7 +4,7 @@ from database.database import Base
 class Transaction:
     __tablename__ = "transactions"
 
-    id = Column(BigInteger, primary_key=True, index=True)
+    id = Column(BigInteger, primary_key=True, index=True, autoincrement=True)
     user_document = Column(String, nullable=False)
     credit_card_token = Column(String, nullable=False)
     value = Column(BigInteger, nullable=False)

@@ -6,6 +6,7 @@ class TransactionCreate(BaseModel):
     value : int
 
 class TransactionResponse(BaseModel):
+    id: int 
     user_document : str
     credit_card : str
     value : str
