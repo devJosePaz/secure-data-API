@@ -8,7 +8,7 @@ class TransactionCreate(BaseModel):
 class TransactionResponse(BaseModel):
     id: int 
     user_document : str
-    credit_card : str
+    credit_card_token : str
     value : str
 
     class Config:

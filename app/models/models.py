@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, BigInteger
-from database.database import Base
-from db.encrypted_type import EncryptedString
+from app.database import Base
+from app.types.encrypted_type import EncryptedString
 
 class Transaction(Base):
     __tablename__ = "transactions"
