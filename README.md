@@ -1,5 +1,3 @@
-I've refined your README for better clarity and formatting.
-
 -----
 
 # Secure Data API
