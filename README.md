@@ -40,7 +40,7 @@ Siga os passos abaixo para configurar e executar a API em sua máquina local:
 1.  **Clone o repositório:**
 
     ```bash
-    git clone <URL_DO_REPOSITÓRIO>
+    git clone https://github.com/devJosePaz/secure-data-API.git
     cd secure-data-API
     ```
 
