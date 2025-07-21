@@ -63,7 +63,7 @@ Siga os passos abaixo para configurar e executar a API em sua máquina local:
 4.  **Gere as chaves de criptografia (públicas e privadas):**
 
     ```bash
-    python app/services/generate_keys.py
+    python -m app.services.generate_keys.py
     ```
 
 5.  **Crie as tabelas no banco de dados:**
