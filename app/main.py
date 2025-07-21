@@ -1,7 +1,6 @@
-from app.database import engine, Base
-from app.models.models import Transaction
+from fastapi import FastAPI
+from app.routes.transaction_routes import router
 
-Base.metadata.create_all(bind=engine)
+app = FastAPI()
 
-if __name__ == "__main__":
-    print("tabela criada com sucesso")
+app.include_router(router)
