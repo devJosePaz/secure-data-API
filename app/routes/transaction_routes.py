@@ -46,9 +46,11 @@ def update_transaction():
     raise HTTPException(status_code=403, detail="no fields can be changed, all data is sensitive")
     
 
-@router.delete("/transaction/{transaction_id}")
-def delete_transaction(transaction: schemas.TransactionCreate, db: Session = Depends(get_db)):
-    pass
+@router.delete("/transactions/{id}")
+def delete_transaction(id: int):
+    raise HTTPException(
+        status_code=403, detail="transactions cannot be deleted, sensitive data must be preserved.")
+
 
     
     

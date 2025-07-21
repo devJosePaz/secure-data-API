@@ -8,4 +8,4 @@ class Transaction(Base):
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     user_document = Column(EncryptedString(255), nullable=False)
     credit_card_token = Column(EncryptedString(255), nullable=False)
-    value = Column(BigInteger, nullable=False)
+    value = Column(Integer, nullable=False)
